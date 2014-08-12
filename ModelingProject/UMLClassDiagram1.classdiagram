@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="0e23d663-7c25-4e94-aa9b-c37c254fb258" name="UMLClassDiagram1" linkedPackageId="4032ef76-108f-4cb0-ba56-9ad9d8859fd2" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="07e6dbee-38a5-4bb9-8f54-1508ee13efda">
+      <profileInstance Id="de252834-383b-4627-9067-9475198f1761" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="854a48e0-b7ce-4072-87c5-ddce42b5f2c8">
+      <profileInstance Id="7f9c860f-05eb-4453-b591-343700af6837" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bdf34060-a6da-4696-86aa-fd5a2a01645e" name="Firm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fa35e72f-e24b-4cdc-8610-3ade84c93306" />
+        <ownedAttributesInternal>
+          <property Id="813bb656-3151-42f0-b254-4abd16c178ac" name="money" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="68a2bc4d-bfac-45e5-9fa7-0c38467c1003" />
+          </property>
+          <property Id="dc70ded2-4044-4ba4-8419-d89309fb66d7" name="elasticity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d9549f45-3a63-429f-8951-2620456b8f5e" />
+          </property>
+          <property Id="3576e5ec-b8e6-4e02-b3e6-3fed257297ca" name="productivity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3bef59ef-84b6-45c8-9db9-79ebf0c0ade1" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="9787abc8-a02a-416f-9645-7fd2672208c7" name="hire" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="05d283b0-acb1-47e7-a6e4-85538031d716" />
+          </operation>
+          <operation Id="f795f379-c932-481e-87f5-ca15ae4583d0" name="fire" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d802d7bb-e620-48bc-ab82-a3f395896963" />
+          </operation>
+          <operation Id="a3e4caa7-efc5-4909-81c6-b0596081e7c8" name="produce" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="de566661-5e96-4bd9-b134-7767e4e6b6f5" />
+          </operation>
+          <operation Id="4b46e535-3b46-48a3-aa94-9c17877e4fdc" name="get_sales" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="608064bc-ad82-48f1-b37d-42e85d5f6338" />
+          </operation>
+          <operation Id="0b6ade19-b4d3-4133-a336-2cd9c420f7e8" name="learn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="52ec1681-f96e-494d-adb2-338903607af3" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="48ec19db-d018-4daf-a780-a1a8540fd2e7" name="Household" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7214075e-69bb-4bef-ba9e-888e43b1c1f0" />
+        <ownedAttributesInternal>
+          <property Id="650b9544-bfd1-4cc1-ab04-35ccc99fcb35" name="money" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="08eb3e7c-1946-4406-a027-2ef1c13ae76d" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d9325c77-eefe-4958-8e33-4e9dd24be7b4" name="birth" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e4a86292-03ae-448a-8ef4-86371401510c" />
+          </operation>
+          <operation Id="ec04318c-2315-46bc-8589-236955c91986" name="die" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b47b13da-cb35-4180-adbf-485a7fedf615" />
+          </operation>
+          <operation Id="498bb02c-2238-485b-88f3-467b4562c0c9" name="quit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="74c0c15f-5b37-48d7-a12d-3990661c547d" />
+          </operation>
+          <operation Id="98a969d8-1e7a-4539-8b5b-3bf2fbc5486a" name="buy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a01d78f6-f88c-47d1-b552-784a5db06015" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="4032ef76-108f-4cb0-ba56-9ad9d8859fd2" name="ModelingProject">
+    <elementDefinition Id="7e5c1a22-e139-43da-94d5-27f691d34bf0" />
+  </package>
+</logicalClassDesignerModel>
